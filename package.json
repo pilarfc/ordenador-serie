@@ -1,0 +1,13 @@
+
+{
+  "name": "casper-circleci",
+  "version": "0.0.1",
+  "description": "Functional tests with Casper.js in Circle CI",
+  "main": "index.html",
+  "scripts": {
+    "preinstall": "npm install -g casperjs",
+    "test": "casperjs test redirecting.js"
+  },
+  "author": "Crowdbotics",
+  "license": "MIT"
+}
